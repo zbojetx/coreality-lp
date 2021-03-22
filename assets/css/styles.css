@@ -457,7 +457,7 @@
     #menu {
         position: absolute;
         width: 40vw;
-        margin: -100px 0 0 350px;
+        margin: -100px 0 0 360px;
         padding: 40px;
         padding-top: 125px;
         background-color: #fff;
@@ -636,6 +636,7 @@
     .py-5 {
         padding: 2rem 0 2rem 0;
     }
+
 
     .footer {
         display: flex;
