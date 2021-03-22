@@ -351,6 +351,7 @@
         justify-content: space-between;
     }
 
+   
     .list {
         display: flex;
         align-items: center;
@@ -564,6 +565,11 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    nav{
+        display: none;
+    }
+
 
     .list {
         display: flex;
