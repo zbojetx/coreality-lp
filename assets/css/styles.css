@@ -18,9 +18,200 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section-purple {
-        width: 100vw;
-        background-color: red;
+    .navbar {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+    }
+
+    .list a {
+        font-family: RobotoMedium;
+        color: #4b338f;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 10px 20px 10px 20px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .list a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #4b338f;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .list a:hover:after {
+        color: #23036a;
+        width: 100%;
+        left: 0;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .section-nobg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 3rem 0 3rem 0;
+    }
+
+    .centering {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container {
+        padding: 0 5rem 0 5rem;
+    }
+
+    .grid {
+        display: grid;
+        padding: 5rem 0 5rem 0;
+    }
+
+    .grid-2 {
+        grid-column-gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3 {
+        grid-column-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .headline {
+        font-size: 3rem;
+        font-family: RobotoMedium;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .sub-headline {
+        font-family: RobotoMedium;
+        margin-bottom: 10px;
+        margin-top: 0;
+        color: #6200ee;
+    }
+
+    .text {
+        font-family: RobotoReguler;
+    }
+
+    .fs-40 {
+        font-size: 36px;
+        line-height: 56px;
+    }
+
+    .fs-24 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .fs-20 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .fs-16 {
+        font-size: 12px;
+        line-height: 32px;
+    }
+
+    .pr-10 {
+        padding: 0 2rem 0 0rem;
+    }
+
+    .pl-10 {
+        padding: 0 3rem 0 5rem;
+    }
+
+    .px-10 {
+        padding: 0 10rem 0 10rem;
+    }
+
+    .py-5 {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .footer a {
+        font-family: RobotoMedium;
+        color: #140e1e;
+        font-size: 10px;
+        text-decoration: none;
+        padding: 5px 20px 10px 5px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .btn-primary {
+        background-color: #4b338f;
+        border: 1px solid #4b338f;
+        padding: 0.6rem;
+        width: 140px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: RobotoReguler;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .btn-primary:hover {
+        background-color: #23036a;
+    }
+
+    .btn-outlined {
+        background-color: #fff;
+        border: 1px solid #4b338f;
+        padding: 0.6rem;
+        width: 140px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: RobotoReguler;
+        color: #4b338f;
+    }
+
+    .btn-outlined:hover {
+        background-color: #f2e7fe;
+        transition: 0.3s;
     }
 }
 
