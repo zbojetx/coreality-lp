@@ -125,7 +125,7 @@
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-        height: 100vh;
+        
     }
 
     #menu li {
@@ -936,6 +936,18 @@
         justify-content: space-between;
     }
 
+    #navbar-sticky {
+        display: flex;
+        position: fixed;
+        right: 0;
+        left: 0;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 10rem 1rem 10rem;
+        background-color: white;
+        box-shadow: 0px 5px 18px rgba(28, 28, 28, 0.15);
+    }
+
     nav {
         display: none;
     }
@@ -1162,6 +1174,10 @@ body {
 
 .bg-secondary {
     background-color: #f5f5f5;
+}
+
+.bg-white{
+    background-color: #ffffff;
 }
 
 .color-black {
