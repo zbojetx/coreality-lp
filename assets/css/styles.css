@@ -22,6 +22,10 @@
         overflow-x: hidden;
     }
 
+    #navbar-sticky {
+        display: none;
+    }
+
     .navbar {
         display: none;
         align-items: center;
@@ -369,6 +373,11 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    #navbar-sticky {
+        display: none;
+    }
+
 
     #menuToggle {
         display: block;
@@ -937,7 +946,7 @@
     }
 
     #navbar-sticky {
-        display: nonesetdis;
+        display: none;
         position: fixed;
         right: 0;
         left: 0;
