@@ -11,4 +11,6 @@ window.onscroll = function() {
   } else {
     document.getElementById("navbar-sticky").style.display = "none";
   }
+
+  
 }
